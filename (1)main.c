@@ -7,7 +7,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     unsigned int a;
     unsigned char c;
-    printf ("Введите число:");
+    printf ("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®:");
     scanf("%d",&a);
     unsigned char mass[sizeof(int)*8];
     for (int i = 3,j = 31; i >= 0;i--)
@@ -22,7 +22,7 @@ int main()
 
 
     }
-    printf ("Число в двоичном представлении:");
+    printf ("Г—ГЁГ±Г«Г® Гў Г¤ГўГ®ГЁГ·Г­Г®Г¬ ГЇГ°ГҐГ¤Г±ГІГ ГўГ«ГҐГ­ГЁГЁ:");
     for (int i = 0;i < 32;i++)
     {
         printf ("%d",mass[i]);
