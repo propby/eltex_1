@@ -6,10 +6,10 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     unsigned char bit;
-    printf ("На что поменять третьий бит (1 или 0) ?:");
+    printf ("ГЌГ  Г·ГІГ® ГЇГ®Г¬ГҐГ­ГїГІГј ГІГ°ГҐГІГјГЁГ© ГЎГЁГІ (1 ГЁГ«ГЁ 0) ?:");
     scanf("%d",&bit);
     unsigned int num;
-    printf ("Число:");
+    printf ("Г—ГЁГ±Г«Г®:");
     scanf("%d",&num);
 
       switch (bit)
@@ -24,7 +24,7 @@ int main()
         return 0;
       }
 
-    printf ("Измененое число:");
+    printf ("Г€Г§Г¬ГҐГ­ГҐГ­Г®ГҐ Г·ГЁГ±Г«Г®:");
     printf ("%d",num);
     return 0;
 }
