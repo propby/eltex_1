@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     unsigned int a;
-    printf ("Введите число:");
+    printf ("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®:");
     scanf("%d",&a);int counter = 0;
     for (int i = 0; i < sizeof(int)*8;i++)
     {
@@ -20,7 +20,7 @@ int main()
       }
 
     }
-    printf ("Число единиц:");
+    printf ("Г—ГЁГ±Г«Г® ГҐГ¤ГЁГ­ГЁГ¶:");
     printf ("%d",counter);
     return 0;
 }
